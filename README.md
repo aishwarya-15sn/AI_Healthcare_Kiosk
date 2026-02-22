@@ -36,24 +36,20 @@ This project simulates a smart healthcare kiosk that:
 ---
 
 ## Project Architecture
-
-
-      User Input
-          ↓
-   GUI Layer (app.py)
-          ↓
+User Input
+↓
+GUI Layer (app.py)
+↓
 Logic Engine (logic.py)
-          ↓
-   CSV Data Sources
-          ↓
+↓
+CSV Data Sources
+↓
 Decision Rules & Output
 
 
 ---
 
 ## Project Structure
-
-
 app.py → Main GUI application
 logic.py → Core processing logic
 rules.csv → Location + season rules
@@ -75,8 +71,8 @@ Install dependencies:
 pip install pandas
 
 Run the project:
-
 python app.py
+
 Future Improvements
 
 IoT wearable integration
