@@ -74,20 +74,24 @@ Install dependencies:
 
 ```bash
 pip install pandas
+```
 
 Run the project:
+```bash
 python app.py
+```
 
-Future Improvements
+## Future Improvements
 - IoT wearable integration
 - Cloud-based hospital alert system
 - REST API integration
 - ML-based health risk prediction
 
-Team
+## Team
 - Aishwarya Shanmukh
 - Deekshitha P
 - Gandla Rupasree
 - Mentor: Prof. Sitaram V Yaji
+
 
 
