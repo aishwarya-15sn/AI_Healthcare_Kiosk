@@ -38,14 +38,14 @@ This project simulates a smart healthcare kiosk that:
 ## Project Architecture
 
 
-User Input
-↓
-GUI Layer (app.py)
-↓
+      User Input
+          ↓
+   GUI Layer (app.py)
+          ↓
 Logic Engine (logic.py)
-↓
-CSV Data Sources
-↓
+          ↓
+   CSV Data Sources
+          ↓
 Decision Rules & Output
 
 
