@@ -36,6 +36,8 @@ This project simulates a smart healthcare kiosk that:
 ---
 
 ## Project Architecture
+
+```
 User Input
 ↓
 GUI Layer (app.py)
@@ -45,17 +47,20 @@ Logic Engine (logic.py)
 CSV Data Sources
 ↓
 Decision Rules & Output
-
+```
 
 ---
 
 ## Project Structure
+
+```
 app.py → Main GUI application
 logic.py → Core processing logic
 rules.csv → Location + season rules
 medical_history.csv → Simulated patient records
 doctors.csv → Doctor dataset
 README.md → Documentation
+```
 
 
 ---
@@ -84,4 +89,5 @@ Team
 - Deekshitha P
 - Gandla Rupasree
 - Mentor: Prof. Sitaram V Yaji
+
 
