@@ -1,50 +1,98 @@
-# Smart Health Kiosk – Intel Unnati Project 2025
-This project is a simulation of a Smart Health Kiosk system, developed under the Intel Unnati CoE initiative. The aim is to design a basic healthcare support system that provides emergency handling and localized health suggestions using simple data processing in Python.
+# Smart Health Kiosk – AI-Based Healthcare Assistance System
+
+## Overview
+Smart Health Kiosk is an AI-driven healthcare assistance simulation developed under the Intel Unnati CoE Initiative.
+
+The system demonstrates how intelligent software can assist in emergency handling, wearable health monitoring, and localized healthcare recommendations using Python-based data processing and rule-based decision logic.
+
 ---
-## Team Members
-- **Aishwarya Shanmukh** – 4SO21EC034  
-- **Deekshitha P** – 4SO21EC037  
-- **Gandla Rupasree** – 4SO21EC045  
-**Mentor:** Prof. Sitaram V Yaji
----
-## Objective
-The purpose of this project is to develop a simple health kiosk simulation that:
+
+## Problem Statement
+This project simulates a smart healthcare kiosk that:
+
 - Assists users during medical emergencies
-- Suggests health products based on location and season
-- Simulates basic wearable sensor data for vitals
-- Recommends doctors and tablets based on user symptoms
+- Processes basic health data
+- Provides location-aware health suggestions
+- Demonstrates pre-arrival hospital data sharing
+
 ---
-## Features Implemented
-1. **Emergency Call Simulation**  
-   - Accepts patient name and shows basic medical history  
-   - Simulates sending details to the nearest hospital
-2. **Location-Based Response**  
-   - User selects their city (e.g., Bangalore, Delhi, Chennai)  
-   - The system assumes alerting nearby medical services
-3. **Pre-Arrival Hospital Alert**  
-   - Shares simulated vital data (heart rate and SpO2)  
-   - Message is shown that data has been sent in advance
-4. **Hyper-Localized Suggestions**  
-   - Suggests common medicines/products based on region and season  
-   - Uses a CSV file for reference rules
-5. **Simulated Wearable Input**  
-   - Accepts manual input of heart rate and oxygen level  
-   - Detects abnormal values and raises alerts
-6. **Doctor and Medicine Recommendation**  
-   - Based on symptom entered by the user  
-   - Shows doctors and tablet suggestions from a local CSV
+
+## Tech Stack
+- Python
+- Pandas
+- CSV-based data modeling
+- Rule-based decision logic
+- Basic GUI interface
+
 ---
-## Files in the Project
-- `app.py` – GUI file (main application)
-- `logic.py` – Contains backend logic
-- `rules.csv` – Mapping of location + season to suggestions
-- `medical_history.csv` – Simulated patient database
-- `doctors.csv` – List of doctors with specialties and cities
-- `README.md` – Project documentation
+
+## Features
+- Emergency response simulation
+- Location-based healthcare suggestions
+- Pre-arrival hospital alert simulation
+- Wearable vital monitoring (simulated)
+- Doctor & medicine recommendation system
+
 ---
+
+## Project Architecture
+
+
+User Input
+↓
+GUI Layer (app.py)
+↓
+Logic Engine (logic.py)
+↓
+CSV Data Sources
+↓
+Decision Rules & Output
+
+
+---
+
+## Project Structure
+
+
+app.py → Main GUI application
+logic.py → Core processing logic
+rules.csv → Location + season rules
+medical_history.csv → Simulated patient records
+doctors.csv → Doctor dataset
+README.md → Documentation
+
+
+---
+
 ## Requirements
-- Python 3.x  
-- `pandas` library  
-To install pandas:
+
+- Python 3.x
+- pandas
+
+Install dependencies:
+
 ```bash
 pip install pandas
+
+Run the project:
+
+python app.py
+Future Improvements
+
+IoT wearable integration
+
+Cloud-based hospital alert system
+
+REST API integration
+
+ML-based health risk prediction
+
+Team
+
+Aishwarya Shanmukh
+
+Deekshitha P
+
+Gandla Rupasree
+
+Mentor: Prof. Sitaram V Yaji
