@@ -74,21 +74,14 @@ Run the project:
 python app.py
 
 Future Improvements
-
-IoT wearable integration
-
-Cloud-based hospital alert system
-
-REST API integration
-
-ML-based health risk prediction
+- IoT wearable integration
+- Cloud-based hospital alert system
+- REST API integration
+- ML-based health risk prediction
 
 Team
+- Aishwarya Shanmukh
+- Deekshitha P
+- Gandla Rupasree
+- Mentor: Prof. Sitaram V Yaji
 
-Aishwarya Shanmukh
-
-Deekshitha P
-
-Gandla Rupasree
-
-Mentor: Prof. Sitaram V Yaji
