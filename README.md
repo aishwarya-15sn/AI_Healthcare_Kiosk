@@ -35,6 +35,21 @@ This project simulates a smart healthcare kiosk that:
 
 ---
 
+## System Architecture
+
+User Input
+        ↓
+GUI Layer (app.py)
+        ↓
+Processing Engine (logic.py)
+        ↓
+CSV Data Sources
+        ↓
+Rule-Based Decision Engine
+        ↓
+Health Recommendation Output
+
+---
 ## Project Architecture
 
 ```
