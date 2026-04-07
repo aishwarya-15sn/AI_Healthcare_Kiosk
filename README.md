@@ -1,25 +1,27 @@
 # HealthSense – AI Healthcare Intelligence Platform
 
-An AI-powered healthcare monitoring platform that analyzes physiological health data 
+An AI-powered healthcare monitoring platform that analyzes physiological health data
 to predict potential health risks using machine learning models.
 
 ## Features
-- ML-based health risk prediction
-- Data preprocessing pipelines
-- Telemedicine integration architecture
+- Machine learning-based health risk prediction from physiological data
+- Data preprocessing pipeline for cleaning and structuring health datasets
+- Feature engineering to extract meaningful health indicators
+- Modular architecture allowing integration with telemedicine systems
 
 ## Tech Stack
-Python, Scikit-learn, SQL
+Python, Scikit-learn, NumPy, Pandas, SQL
 
 ## Results
-Achieved ~85% prediction accuracy on physiological health datasets.
+Achieved ~85% prediction accuracy on processed physiological health datasets using classification models.
 
 ## Project Structure
-src/
-models/
-data/
-notebooks/
+src/        # Core ML pipeline implementation  
+models/     # Trained machine learning models  
+data/       # Sample physiological datasets  
+notebooks/  # Model training and experimentation  
 
 ## Future Improvements
-- FastAPI deployment
-- Real-time monitoring dashboard
+- FastAPI deployment for real-time health predictions
+- Real-time health monitoring dashboard
+- Integration with wearable health devices
