@@ -13,12 +13,12 @@ A Python-based healthcare monitoring system that analyzes patient vitals, medica
 Python, Pandas, Tkinter, CSV-based data processing
 
 ## Project Structure
-app.py                 # Tkinter GUI application
-logic.py               # Core healthcare logic and processing
-medical_history.csv    # Patient medical history dataset
-doctors.csv            # Doctor recommendation dataset
-rules.csv              # Seasonal healthcare suggestions
-requirements.txt       # Project dependencies
+- app.py                 # Tkinter GUI application
+- logic.py               # Core healthcare logic and processing
+- medical_history.csv    # Patient medical history dataset
+- doctors.csv            # Doctor recommendation dataset
+- rules.csv              # Seasonal healthcare suggestions
+- requirements.txt       # Project dependencies
 
 ## Future Improvements
 - Integration of machine learning models for health risk prediction
