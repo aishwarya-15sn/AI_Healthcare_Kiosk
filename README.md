@@ -1,27 +1,28 @@
 # HealthSense – AI Healthcare Intelligence Platform
 
-An AI-powered healthcare monitoring platform that analyzes physiological health data
-to predict potential health risks using machine learning models.
+A Python-based healthcare monitoring system that analyzes patient vitals, medical history, and seasonal health conditions to provide basic healthcare assistance and recommendations.
 
 ## Features
-- Machine learning-based health risk prediction from physiological data
-- Data preprocessing pipeline for cleaning and structuring health datasets
-- Feature engineering to extract meaningful health indicators
-- Modular architecture allowing integration with telemedicine systems
+- Patient medical history lookup using CSV datasets
+- Vitals monitoring for heart rate and oxygen levels
+- Seasonal health suggestions based on location and climate
+- Doctor recommendation system based on symptoms and location
+- Modular healthcare kiosk architecture using Python and Tkinter
 
 ## Tech Stack
-Python, Scikit-learn, NumPy, Pandas, SQL
-
-## Results
-Achieved ~85% prediction accuracy on processed physiological health datasets using classification models.
+Python, Pandas, Tkinter, CSV-based data processing
 
 ## Project Structure
-src/        # Core ML pipeline implementation  
-models/     # Trained machine learning models  
-data/       # Sample physiological datasets  
-notebooks/  # Model training and experimentation  
+app.py                 # Tkinter GUI application
+logic.py               # Core healthcare logic and processing
+medical_history.csv    # Patient medical history dataset
+doctors.csv            # Doctor recommendation dataset
+rules.csv              # Seasonal healthcare suggestions
+requirements.txt       # Project dependencies
 
 ## Future Improvements
-- FastAPI deployment for real-time health predictions
+- Integration of machine learning models for health risk prediction
+- FastAPI deployment for remote healthcare access
 - Real-time health monitoring dashboard
-- Integration with wearable health devices
+- Integration with wearable healthcare devices
+- Database integration instead of CSV storage
