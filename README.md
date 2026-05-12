@@ -1,4 +1,4 @@
-# HealthSense – Smart Healthcare Monitoring System
+# HealthSense – Intelligent Healthcare Monitoring \& Telemedicine System
 
 A Python-based healthcare monitoring system that analyzes patient vitals, medical history, and seasonal health conditions to provide basic healthcare assistance and recommendations.
 
